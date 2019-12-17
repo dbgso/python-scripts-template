@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[scripts]
+dev_watch = "ptw --runner python app.py"
+
+[dev-packages]
+autopep8 = "*"
+pytest-watch = "*"
+
+[packages]
+
+[requires]
+python_version = "*"
